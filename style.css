@@ -1,0 +1,63 @@
+   .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("Imagens/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .corpo {
+    /* Definir estilos para o corpo da página */
+    /* Por exemplo: */
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* Tornar o elemento posicionado acima do background */
+    position: relative;
+    z-index: 1;
+  }
+  
+  header {
+    display: flex; /* Cria um layout flexível */
+    justify-content: space-between; /* Alinha os itens no header: logo à esquerda e nav à direita */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo do cabeçalho com transparência */
+    padding: 0px; /* Espaçamento interno do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+  }
+  
+  .logo {
+    flex: 1; /* Expande a logo para ocupar todo espaço disponível */
+  }
+  
+  .logo h1 {
+    font-size: 36px; /* Tamanho da fonte da logo */
+    letter-spacing: 4px; /* Espaçamento entre as letras da logo */
+    line-height: 1.2; /* Espaçamento vertical entre as linhas de texto da logo */
+    color: #ffffff; /* Cor do texto da logo */
+  }
+  
+  nav ul {
+    list-style: none; /* Remove marcadores de lista */
+  }
+  
+  nav ul li {
+    display: inline-block; /* Alinha os itens horizontalmente */
+    margin-right: 20px; /* Espaço entre os itens */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #fff; /* Cor do texto dos links */
+    font-size: 18px; /* Tamanho da fonte dos links */
+  }
